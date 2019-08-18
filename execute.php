@@ -30,9 +30,9 @@ elseif($text=="come stai?")
 {
 	$response = "Io bene e tu $firstname";
 }
-elseif($text=="Come stai?")
+elseif($text=="come stai")
 {
-	$response = "Non Benissimo e tu $firstname";
+	$response = "è una domanda?";
 }
 else
 {
