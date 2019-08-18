@@ -26,17 +26,17 @@ if(strpos($text, "/start") === 0 || $text=="ciao")
 {
 	$response = "Ciao $firstname, benvenuto!";
 }
-elseif($text=="domanda 1")
+elseif($text=="come stai?")
 {
-	$response = "risposta 1";
+	$response = "Io bene e tu $firstname";
 }
-elseif($text=="domanda 2")
+elseif($text=="Come stai?")
 {
-	$response = "risposta 2";
+	$response = "Non Benissimo e tu $firstname";
 }
 else
 {
-	$response = "Comando non valido!";
+	exit;
 }
 
 $parameters = array('chat_id' => $chatId, "text" => $response);
