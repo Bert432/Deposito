@@ -24,7 +24,7 @@ $response = '';
 
 if(strpos($text, "/start") === 0 || $text=="ciao")
 {
-	$response = "Ciao $firstname, benvenuto!";
+	$response = "Ciaooooooooooooooooooo $firstname, benvenuto!";
 }
 elseif($text=="come stai?")
 {
